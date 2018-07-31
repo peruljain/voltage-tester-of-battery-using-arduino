@@ -14,8 +14,7 @@ void setup()
   lcd.print("battery voltage");
   delay(1000);
   value=analogRead(ana)*5*4; //multiplied by 4 because i am using 4 427-428 K OHM resistance to increase range upto 20 v. if i will not use this will have range of 0-5 V only
-  value=value/1024;
-  
+  value=value/1024; 
 
 }
 
